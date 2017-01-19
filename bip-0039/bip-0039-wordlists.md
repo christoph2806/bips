@@ -7,6 +7,7 @@
 * [Chinese (Traditional)](chinese_traditional.txt)
 * [French](french.txt)
 * [Italian](italian.txt)
+* [German](german.txt)
 
 ##Wordlists (Special Considerations)
 
@@ -81,3 +82,19 @@ Words chosen using the following rules:
 Rules 11 and 12 prevent the selection words that are not different enough. This makes each word more recognizable among others and less error prone. For example: the wordlist contains "atono", then "atomo" is rejected, but "atomico" is good. 
 
 All the words have been manually selected and automatically checked against the rules.
+
+### German
+
+Credits: @christoph2806
+
+Words chosen using the following rules:
+1. Based on a list of the most frequent 25,000 german words (Source: Institut fuer deutsche Sprache, http://www1.ids-mannheim.de/fileadmin/kl/derewo/derewo-v-ww-bll-320000g-2012-12-31-1.0.zip)
+2. Length between 4 and 9 characters.
+3. First 4 letters are unique between all words.
+4. Words differ in at least 3 letters.
+5. No german umlaute or special chars.
+6. No plural words.
+7. No words with double letters.
+8. No words with the letters q, x, y.
+9. No words starting with c.
+10. 
